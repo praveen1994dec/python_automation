@@ -4,9 +4,9 @@ from string import Template
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-gmail_user = "praveensingamp1994dec@gmail.com"
-gmail_pwd = "infocuS&12345"
-TO = 'praveensingam1994@gmail.com'
+gmail_user = "test@gmail.com"
+gmail_pwd = "demo"
+TO = 'test1@gmail.com'
 SUBJECT = "Testing sending using gmail"
 TEXT = "Testing sending mail using gmail servers"
 server = smtplib.SMTP('smtp.gmail.com', 587)
