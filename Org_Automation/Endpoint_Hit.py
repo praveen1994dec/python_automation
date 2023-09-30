@@ -16,7 +16,7 @@ def hit_endpoint(url):
                 data2 = requests.get(link['Link'],timeout=10)
                 if (data2.status_code==200):
                     list.append(link['Link'])
-                    print(list)
+                    print('The output', list)
                 else:
                     print("Status Code is not 200")
             except requests.exceptions.Timeout:
