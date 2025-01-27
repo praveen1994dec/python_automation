@@ -15,6 +15,6 @@ def space_data(url):
     
     
     print("Total number of persons in ISS" + str(len(person_ISS)))
-    print("Total number of persons in Tiangong" + str(len(person_Tiangong)))
+    print("Total number of persons in ISS" + str(len(person_Tiangong)))
 
 space_data("http://api.open-notify.org/astros.json")
